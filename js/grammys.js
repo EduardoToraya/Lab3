@@ -1,4 +1,4 @@
-fetch("https://github.com/EduardoToraya/Lab3/blob/master/grammys/data/grammys.json")
+fetch("https://eduardotoraya.github.io/Lab3/data/grammys.json")
   .then(response => {
     return response.json()
   })
