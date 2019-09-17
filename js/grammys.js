@@ -1,4 +1,6 @@
 fetch("https://github.com/EduardoToraya/Lab3/blob/master/grammys/data/grammys.json")
+  .then(response => {
+    return response.json()
   })
   .then(data => {
     // Work with JSON data here
